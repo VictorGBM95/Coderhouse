@@ -1,0 +1,128 @@
+/* CSS para todas las páginas */
+body {
+    background: url(images/DnDWallpaperPHB.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200%;
+}
+
+.header {
+    background-image: url("");
+    position: relative;
+    display: inline-flex;
+    top: 10%;
+    width: 100%;
+    height: 200px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+.header__title {
+    color: antiquewhite;
+    top: 7%;
+    left: 10%;
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    z-index: 2;
+}
+
+.header__subtitle{
+    font-family: 'Amatic SC', cursive;
+    color: antiquewhite;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    z-index: 2;
+}
+
+.header__logo {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    border: 3px double rgb(121, 4, 4);
+    width: 15%; 
+    position: relative;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    background-color: maroon;
+    padding: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: -50px;
+}
+
+ul ul li {
+    border: 2px double rgb(121, 4, 4);
+    display: block;
+    width: 100%;
+    background-color: rgb(122, 11, 11);
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+
+.footer {
+    position: sticky;
+}
+
+/* Acá empieza el CSS del contenido del Index */
+.main {
+    background-color: rgba(54, 21, 21, 0.288);
+    border-radius: 10%;
+    text-align: center;
+}
+
+.main__title {
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    color: antiquewhite;
+}
+
+.main__content {
+    font-size: 22px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.main__media {
+    position: relative;
+    left: 8.5%;
+    text-align: center;
+    border: 5px solid antiquewhite;
+    padding: 5px;
+    display: inline-flex;
+}
+
+.main__manuales {
+    margin: 5px;
+}
+
+.main__video{
+    margin: 5px;
+
+}
+
+.main__dados{
+    margin: 5px;
+}

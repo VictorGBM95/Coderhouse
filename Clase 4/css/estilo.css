@@ -1,0 +1,131 @@
+.clase1 {
+    padding: 50px;
+    background-color: lightgray;
+    width: 500px;
+    height: 25%;
+}
+
+.clase2 {
+    border: 10px double black;
+    padding: 0px 10px 0px 10px;
+
+}
+.caja3{
+    border: 1px solid black;
+    padding: 0px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    width: 100px;
+    height: 110px;
+    overflow: auto;
+}
+
+
+.card {
+    width: 25%;
+    margin-right: 5%;
+    float: left;
+    border: 1px solid black;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__title {
+    text-transform: uppercase;
+}
+
+.card__description {
+    font-style: italic;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.menu {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* p {
+    display: inline;
+    background-color: yellow;
+} */
+
+span {
+    display: block;
+    background-color: greySSS;
+}
+
+.ocultar {
+    display: inline-block;
+}
+
+.imagen1 {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    background-image: url("../images/Nat20.jpg");
+    background-size: cover;
+    width: 30%;
+    height: 100vh;
+    z-index: 01;
+
+}
+
+.imagen2 {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    background-image: url("../images/Dice.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 200vh;
+    z-index: 1;
+}
+
+.form {
+    background-color: blueviolet;
+    position: relative;
+    top: 0px;
+    left: 0%;
+    width: 50%;
+    height: 200vh;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 2;
+
+}
+
+p {
+    color: #0033ff;
+    font-size: 12px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}

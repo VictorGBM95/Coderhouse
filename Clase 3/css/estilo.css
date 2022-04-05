@@ -1,0 +1,67 @@
+body {
+    
+}
+header {
+    background-color: black;
+}
+footer {
+    background-color: black;
+    color: white;
+    
+}
+footer {
+    color: white; font-size: 30px;
+}
+section {
+    background-color: #EEEEEE;
+    padding: 50px;
+}
+section article {
+    background-color: #cccccc;
+    padding: 20px;
+}
+section h3 {
+    color: maroon;
+
+}
+
+h1 {
+    color: white;
+
+}
+h2 { 
+    color: #336699;
+}
+
+p {
+    color: rgb(000,100,000); font-size: 16px;
+}
+
+.parrafo {
+    color: rgb(255, 127, 206);
+    font-size: 28px;
+    word-spacing: 5px;
+}
+
+.bordersredondeados {
+    border-radius: 20px;
+}
+span {
+    color:gold;
+}
+div {
+    padding: 50px;
+
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.imagenfondo { 
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eb980837-61c9-42af-8146-82f2cb276b98/d6z4umv-e165b67e-af60-417f-b627-c68d321f356f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ViOTgwODM3LTYxYzktNDJhZi04MTQ2LTgyZjJjYjI3NmI5OFwvZDZ6NHVtdi1lMTY1YjY3ZS1hZjYwLTQxN2YtYjYyNy1jNjhkMzIxZjM1NmYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OQtoohyo6JRh96uQxHcmuF_TxUD2gkeoXPuKmD7T8qA);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: inherit;
+}

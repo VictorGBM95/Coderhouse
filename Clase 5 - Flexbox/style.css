@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-menu {
+    background-color: chocolate;
+    /* Hablitar Poderes de Flex */
+    display: flex;
+    /*Alinear elementos horizontalmente*/
+    justify-content: center;
+    
+}
+
+.menu {
+    width: 900px;
+    list-style: none;
+    padding: 2rem;
+    /* Habilitar propiedades Flex*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-texto {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.texto {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* Alinear Verticalmente   */
+    align-items: center;
+}
+
+
+.texto div {
+    background-color: red;
+    padding: 3rem;
+
+}
+
+.contenedor-fotos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.fotos {
+    width: 1200px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* Acomodar imagenes al ancho de pantalla */
+    /* flex-wrap: wrap; */
+    /* Ordenar Verticalmente */
+    /* flex-direction: row; */
+    /* Combinar Wrap y Direction */
+    flex-flow: row wrap
+}
+
+.item-fotos {
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}

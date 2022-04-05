@@ -1,0 +1,292 @@
+/* CSS para todas las páginas */
+body {
+    background: url(images/DnDWallpaperPHB.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200%;
+}
+
+.header {
+    background-image: url("");
+    position: relative;
+    display: inline-flex;
+    top: 10%;
+    width: 100%;
+    height: 200px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__title {
+    color: antiquewhite;
+    top: 7%;
+    left: 10%;
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    z-index: 2;
+}
+
+.header__subtitle {
+    font-family: 'Amatic SC', cursive;
+    color: antiquewhite;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    z-index: 2;
+}
+
+.header__logo {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    border: 3px double rgb(121, 4, 4);
+    width: 15%;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    background-color: maroon;
+    padding: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: -50px;
+}
+
+ul ul li {
+    border: 2px double rgb(121, 4, 4);
+    display: block;
+    width: 100%;
+    background-color: rgb(122, 11, 11);
+}
+
+ul li:hover ul {
+    display: block;
+    z-index: 2;
+}
+
+.proximamente {
+    font-size: larger;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+.footer {
+    position: sticky;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Acá empieza el CSS del contenido del Index */
+.main {
+    background-color: rgba(54, 21, 21, 0.288);
+    border-radius: 10%;
+    text-align: center;
+}
+
+.main__title {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: antiquewhite;
+}
+
+.main__content {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+.main__media {
+    position: relative;
+    left: 8.5%;
+    text-align: center;
+    border: 5px solid antiquewhite;
+    padding: 5px;
+    display: inline-flex;
+}
+
+.main__manuales {
+    margin: 5px;
+}
+
+.main__video {
+    margin: 5px;
+
+}
+
+.main__dados {
+    margin: 5px;
+}
+
+/* CSS para la página de Manuales */
+.manuales__titulo {
+    border: 1px solid antiquewhite;
+    background: url(images/DnDIcon.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+    left: 42.5%;
+    font-size: larger;
+    width: 15%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+.manuales__filtro {
+    border: 1px solid antiquewhite;
+    background-color: rgb(54, 0, 0);
+    position: relative;
+    font-size: 20px;
+    margin: 5px;
+    left: 44.125%;
+    text-align: center;
+    width: 12%;
+    font-family: 'Amatic SC', cursive;
+    color: antiquewhite;
+}
+
+.tablas {
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    left: 29%;
+    align-content: center;
+    border: 1px solid antiquewhite;
+    background-color: rgb(54, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    color: antiquewhite;
+    align-content: center;
+}
+
+/* CSS para la página de Dados */
+.dados__titulo {
+    border: 1px solid antiquewhite;
+    background: url(images/DnDIcon.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+    left: 42.5%;
+    font-size: larger;
+    width: 15%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+.dados__filtro {
+    border: 1px solid antiquewhite;
+    background-color: rgb(54, 0, 0);
+    position: relative;
+    font-size: 20px;
+    margin: 5px;
+    left: 44.125%;
+    text-align: center;
+    width: 12%;
+    font-family: 'Amatic SC', cursive;
+    color: antiquewhite;
+}
+
+/* CSS para la página de Miniaturas */
+.minis__titulo {
+    border: 1px solid antiquewhite;
+    background: url(images/DnDIcon.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 5px;
+    left: 42.5%;
+    font-size: larger;
+    width: 15%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+.minis__filtro {
+    border: 1px solid antiquewhite;
+    background-color: rgb(54, 0, 0);
+    position: relative;
+    font-size: 20px;
+    margin: 5px;
+    left: 44.125%;
+    text-align: center;
+    width: 12%;
+    font-family: 'Amatic SC', cursive;
+    color: antiquewhite;
+}
+
+.tablas__mini {
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    left: 25%;
+    align-content: center;
+    border: 1px solid antiquewhite;
+    background-color: rgb(54, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    color: antiquewhite;
+    align-content: center;
+}
+
+/* CSS para la página de Contacto */
+.fieldset {
+    border-radius: 5%;
+    border: 2px double;
+    background-color: rgba(54, 0, 0, 0.637);
+    color: antiquewhite;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tabla__contacto {
+    position: relative;
+    text-align: center;
+    left: 4.25%;
+    margin: 10px;
+    align-content: center;
+    border: 1px solid antiquewhite;
+    background-color: rgb(54, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    color: antiquewhite;
+    align-content: center;
+}
+
+/* CSS para la página de Gracias */
+.tabla__gracias {
+    position: relative;
+    text-align: center;
+    left: 13%;
+    margin: 10px;
+    align-content: center;
+    border: 1px solid antiquewhite;
+    background-color: rgb(54, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    color: antiquewhite;
+    align-content: center;
+}
+
+.gracias__boton {
+    position: relative;
+    left: 47.4%;
+}

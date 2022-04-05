@@ -1,0 +1,46 @@
+/* Diseño Mobile */
+@media screen and (max-width: 320px) {
+	.gridcontainer {
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			"logo logo"
+			"navizquierda navderecha"
+			"parrafo parrafo"
+			"imagen imagen"
+			"footer footer";
+	}
+
+	#logo {
+		display: grid;
+		grid-area: logo;
+		justify-items: center;
+	}
+
+	.imagen_logo {
+		width: 100%;
+		max-width: 160px;
+	}
+
+	.menu_header {
+		list-style: none;
+	}
+
+	.menu_header li {
+		display: inline-block;
+	}
+
+	.menu_header li a {
+		text-decoration: none;
+		color: lightcoral;
+	}
+
+	#navizquierda {
+		display: grid;
+		justify-items: center;
+		grid-area: navizquierda;
+	}
+
+	#navderecha {}
+}

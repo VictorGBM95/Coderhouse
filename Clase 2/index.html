@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2 - Coderhouse</title>
+    <link rel="shortcut icon" href="images/Blood_Hunter2.png" type="image/x-icon">
+</head>
+<body>
+  <h1>Coderhouse Clase 2</h1>
+<h2>Listas</h2>
+
+<h3>Lista Ordenada</h3>
+<ol>
+    <li> prueba 1 </li>
+<li>prueba 2</li>
+<li>prueba 3</li>
+<li>prueba 4</li>
+<ul>
+    <li>prueba 4.1</li>
+    <li>prueba 4.2</li>
+</ul>
+<li>prueba 5</li>
+</ol>
+<h3>Lista No Ordenada</h3>
+<ul>
+<li>prueba 1</li>
+<li>prueba 2</li>
+<li>prueba 3</li>
+<li>prueba 4</li>
+<ol>
+    <li>prueba 4.1</li>
+    <li>prueba 4.2</li>
+</ol>
+<li>prueba 5</li>
+</ul>
+
+<h2>Tablas</h2>
+<table border="1" cellpadding="10" cellspacing="10">
+    <tr>
+        <th>Grupo A</th>
+        <th>Grupo B</th>
+        <th>Grupo C</th>
+    </tr>
+<tr>
+    <td>Equipo 1</td>
+    <td>Equipo 2</td>
+    <td>Equipo 3</td>
+</tr>
+<tr>
+    <td>Equipo 1</td>
+    <td>Equipo 2</td>
+    <td>Equipo 3</td>
+</tr>
+
+
+
+
+</table>
+<h3>Ejemplo</h3>
+<p id="BloodHunter">Blood Hunter Image table </p>
+<table border="1" cellpadding="5" cellspacing="5" width="">
+<tr>
+    <td width="50%"><img src="images/Blood_Hunter2.png" alt="Blood Hunter" width="400"></td>
+    <td width="50%"> <h2>Blood Hunters are cool AF</h2>
+    <p>They use blood magic and big ass swords!</p></td>
+</tr>
+</table>
+<h2>Formularios</h2>
+<h3>Formulario Hecho con Parrafos</h3>
+<form action="envio.php" method="post">
+<p><label for="">Nombre</label><br><input type="text" placeholder="Texto"></p>
+<p><label for="">Campo de Email</label><br><input type="email" placeholder="Email"></p>
+<p><label for="">Campo de Password</label><br><input type="password" placeholder="1234"></p>
+<p><label for="">Text Area</label><br><textarea placeholder="Un contenido"></textarea></p>
+<p><input type="submit" value="Enviar!"> <input type="reset" value="Limpiar!"></p>
+</form>
+<h3>Formulario Hecho con Tablas</h3>
+<form action="envio.php" method="post">
+    <fieldset>
+        <legend>Campos de Texto</legend>
+        <table border="0" cellpadding="10" cellspacing="0">
+            <td>Nombre</td>
+            <td><input type="text" name="nombre" id="nombre" value="" placeholder="Ingresa acá tu Nombre!"></td>
+        </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" name="email" id="email" value="" placeholder="Ingresa acá tu Email!"></td>
+
+    </tr>
+    <tr>
+        <td>Contraseña</td>
+        <td><input type="password" name="password" id="password" value="" placeholder="123456"></td>
+        </tr>
+        <tr>
+            <td>Contenido</td>
+            <td><textarea placeholder="Ingresa acá tu Contenido!"></textarea></td>
+            </tr>
+
+
+</table>
+    </fieldset>
+    <input type="submit" value="Enviar!">
+    <input type="reset" value="Limpiar!">
+   <fieldset>
+       <legend>Campos de Chequeo</legend>
+       <table border="0" cellpadding="10" cellspacing="0">
+       
+        <tr>
+<td>Radio</td>
+<td><input type="radio" id="genero1" name="genero" value="Masculino" checked> Masculino <br>
+    <input type="radio" id="genero1" name="genero" value="Femenino">Femenino</td> <br>
+</tr>
+
+<tr>
+<td>Checkbox</td>
+<td><input type="checkbox" id="genero1" name="genero" value="Masculino"> Masculino <br>
+    <input type="checkbox" id="genero1" name="genero" value="Femenino">Femenino</td> <br>
+</tr>
+
+<tr>
+<td>Menu Desplegable</td>
+<td>
+    <select name="genero5" id="genero5">
+        <option value="">Seleccione una opción</option>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+        <option value="No Binario">No Binario</option>
+    </select>
+</td>
+</tr>
+
+</table>
+   </fieldset>
+   
+    <input type="submit" value="Enviar!">
+    <input type="reset" value="Limpiar!">
+    
+
+
+
+</form>
+<h2>Enlances</h2>
+<p><a href="gracias.html" target="_blank"> Ir a Gracias</a></p>
+<p><a href="#BloodHunter"> <input type="button" value="Blood Hunter"></a></p>
+
+<h2>Iframe</h2>
+<iframe src="gracias.html" frameborder="0" width="100%"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HKCY6bYBPqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
